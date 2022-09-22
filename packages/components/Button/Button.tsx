@@ -1,7 +1,7 @@
-import React, { ButtonHTMLAttributes } from "react";
-import * as S from "./Button.styles";
+import React, { ButtonHTMLAttributes } from 'react';
+import * as S from './Button.styles';
 
-interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
+export interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
   children: React.ReactNode;
 }
 
