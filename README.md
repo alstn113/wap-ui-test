@@ -1,8 +1,26 @@
-# wap-ui
+<h1 align="center">🌟 wap-ui 🌟</h1>
 
-🌟 Awesome React Component Libraray "wap-ui" 🌟
+<h2 align="center">Awesome React Component Libraray</h2>
 
-# lib 배포 방법
+---
 
-npm login
-yarn publish --access public
+## Installing Wap UI
+
+```sh
+yarn add wap-ui @emotion/react @emotion/styled framer-motion
+# or
+npm i wap-ui @emotion/react @emotion/styled@ framer-motion
+```
+
+## Usage
+
+```jsx
+import React from 'react';
+import { Button } from 'wap-ui';
+
+const App = () => {
+  return <Button>버튼</Button>;
+};
+
+export default App;
+```
