@@ -1,6 +1,6 @@
 {
   "name": "wap-ui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": "https://github.com/neko113/wap-ui-test.git",
   "author": "neko113 <alstn113@gmail.com>",
   "license": "MIT",
@@ -47,5 +47,9 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "files": [
+    "packages",
+    "dist"
+  ]
 }
