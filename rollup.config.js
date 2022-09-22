@@ -30,16 +30,14 @@ function setUpRollup({ output }) {
 export default [
   setUpRollup({
     output: {
-      dir: './dist',
+      file: pkg.main,
       format: 'cjs',
-      preserveModules: true,
-      preserveModulesRoot: 'src',
     },
   }),
   setUpRollup({
     output: {
       file: pkg.module,
-      format: 'es',
+      format: 'esm',
     },
   }),
 ];
