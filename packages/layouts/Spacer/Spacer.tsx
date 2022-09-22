@@ -6,8 +6,6 @@ export interface Props {
   y?: number;
 }
 
-const Spacer = ({ x = 1, y = 1 }: Props) => {
+export const Spacer = ({ x = 1, y = 1 }: Props) => {
   return <S.Root x={x} y={y} />;
 };
-
-export default Spacer;

@@ -1,5 +1,5 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-import Spacer, { Props } from './Spacer';
+import { Spacer, Props } from './Spacer';
 import React from 'react';
 
 export default {
