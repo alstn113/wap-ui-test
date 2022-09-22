@@ -7,15 +7,15 @@
     "skipLibCheck": true,
     "jsx": "react",
     "module": "ESNext",
-    "declaration": true,
-    "declarationDir": "./dist",
+    "declaration": true, // *.d.ts 타입 파일 생성 여부
+    "declarationDir": "./dist", // *.d.ts 타입 파일 생성 경로
     "sourceMap": false,
-    "outDir": "./dist",
+    "outDir": "./dist", // 빌드 결과물이 저장될 경로
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "emitDeclarationOnly": true,
     "removeComments": true
   },
-  "include": ["packages/**/*"],
+  "include": ["./packages"],
   "exclude": ["./dist", "./node_modules"]
 }

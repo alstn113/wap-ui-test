@@ -1,5 +1,5 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-import Button, { Props } from './Button';
+import { Button, Props } from './Button';
 import React from 'react';
 
 export default {
