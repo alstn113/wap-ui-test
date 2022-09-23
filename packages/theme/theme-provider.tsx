@@ -5,13 +5,11 @@ import GlobalStyle from './global-style';
 
 interface Props extends ThemeProviderProps {}
 
-const WapUIProvider = ({ children }: Props) => {
+export const WapUIProvider = ({ children, theme = lightTheme }: Props) => {
   return (
-    <ThemeProvider theme={lightTheme}>
+    <ThemeProvider theme={theme}>
       <GlobalStyle />
       {children}
     </ThemeProvider>
   );
 };
-
-export default WapUIProvider;
