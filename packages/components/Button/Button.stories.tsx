@@ -1,6 +1,6 @@
+import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { Button, Props } from './Button';
-import React from 'react';
 
 export default {
   title: 'Components/Button',
@@ -14,5 +14,5 @@ const Template: ComponentStory<typeof Button> = (args: Props) => (
 export const Default = Template.bind({});
 
 Default.args = {
-  children: 'Default',
+  children: 'Button',
 };
