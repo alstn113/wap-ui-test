@@ -9,7 +9,7 @@
 ```sh
 yarn add wap-ui @emotion/react @emotion/styled framer-motion
 # or
-npm i wap-ui @emotion/react @emotion/styled@ framer-motion
+npm i wap-ui @emotion/react @emotion/styled framer-motion
 ```
 
 ## Usage
