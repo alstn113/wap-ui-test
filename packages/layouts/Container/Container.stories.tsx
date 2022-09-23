@@ -3,7 +3,7 @@ import { Container, Props } from './Container';
 import React from 'react';
 
 export default {
-  title: 'Components/Container',
+  title: 'Layouts/Container',
   component: Container,
 } as ComponentMeta<typeof Container>;
 
