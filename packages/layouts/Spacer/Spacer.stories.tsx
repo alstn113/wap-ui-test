@@ -3,7 +3,7 @@ import { Spacer, Props } from './Spacer';
 import React from 'react';
 
 export default {
-  title: 'Layout/Spacer',
+  title: 'Layouts/Spacer',
   component: Spacer,
 } as ComponentMeta<typeof Spacer>;
 

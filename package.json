@@ -1,6 +1,6 @@
 {
   "name": "wap-ui",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "repository": "https://github.com/neko113/wap-ui-test.git",
   "author": "neko113 <alstn113@gmail.com>",
   "license": "MIT",
@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.19.1",
+    "@emotion/babel-plugin": "^11.10.2",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "@rollup/plugin-babel": "^5.3.1",

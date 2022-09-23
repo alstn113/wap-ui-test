@@ -13,7 +13,6 @@ export const StyledButton = styled.button<{
   border-radius: 0.7rem;
   padding: 0.7rem 2rem;
   width: auto;
-  border: none;
   min-width: 100px;
   line-height: 20px;
   font-size: 15px;
