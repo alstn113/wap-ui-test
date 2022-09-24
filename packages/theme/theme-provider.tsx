@@ -1,5 +1,5 @@
 import React from 'react';
-import { ThemeProvider, ThemeProviderProps } from '@emotion/react';
+import { Theme, ThemeProvider, ThemeProviderProps } from '@emotion/react';
 import lightTheme from './light-theme';
 import GlobalStyle from './global-style';
 
