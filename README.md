@@ -28,11 +28,13 @@ export default App;
 pull request 후 다시 git push origin <branch name>하면
 자동으로 pull_request에 refresh가 생기게 됨
 
+// local에 pull 받는 방법
 git checkout master
 git fetch upstream
 git rebase upstream/master
 git push -f origin master
 
-git push --set-upstream origin <branch-name>
+git push --set-upstream upstream <branch-name>
+// 원격에 저장소 생성
 
-hbhbhbhbhbh
+test
