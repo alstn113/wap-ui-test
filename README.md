@@ -24,3 +24,11 @@ const App = () => {
 
 export default App;
 ```
+
+pull request 후 다시 git push origin <branch name>하면
+자동으로 pull_request에 refresh가 생기게 됨
+
+git checkout master
+git fetch upstream
+git rebase upstream/master
+git push -f origin master
