@@ -14,11 +14,14 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "prepare": "husky install",
-    "format": "prettier --write './packages/**/*.{ts, tsx}'"
+    "format": "prettier --write 'packages/**/*.{ts, tsx}' --config ./.prettierrc",
+    "lint": "eslint 'packages/**/*.{ts, tsx}'",
+    "lint:fix": "eslint --fix 'packages/**/*.{ts, tsx}'"
   },
   "lint-staged": {
-    "./packages/**/*.{ts,tsx}": [
-      "yarn format"
+    "packages/**/*.{ts,tsx}": [
+      "yarn format",
+      "yarn lint:fix"
     ]
   },
   "devDependencies": {
@@ -42,7 +45,14 @@
     "@storybook/testing-library": "^0.0.13",
     "@types/react": "^18.0.20",
     "@types/react-dom": "^18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
     "babel-loader": "^8.2.5",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "framer-motion": "^7.3.6",
     "husky": "^8.0.0",
     "lint-staged": "^13.0.3",
